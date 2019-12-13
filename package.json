@@ -34,7 +34,6 @@
 		"babel-core": "^6.26.0",
 		"core-js": "^2.5.7",
 		"css-loader": "^0.28.7",
-		"golden-layout": "^1.5.9",
 		"html-webpack-plugin": "^3.2.0",
 		"lodash": ">=4.17.13",
 		"source-map-loader": "^0.2.1",
@@ -57,10 +56,10 @@
 		"webpack-node-externals": "^1.7.2"
 	},
 	"dependencies": {
+		"golden-layout": "https://github.com/Powback/golden-layout#hotfix/vue-debugging",
 		"vue-resize-directive": "^1.1.4"
 	},
 	"peerDependencies": {
-		"golden-layout": "^1.5.9",
 		"jquery": "^3.4.1",
 		"vue": "^2.6.10"
 	},
